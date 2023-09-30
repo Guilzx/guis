@@ -1,4 +1,4 @@
-const userID = "719176232683700316"; // Change this to your Discord user ID
+const userID = "788443073885110302"; // Change this to your Discord user ID
 
 const elements = {
 	statusBox: document.getElementById("status"),
@@ -20,7 +20,7 @@ async function fetchDiscordStatus() {
 			fetch(`https://api.lanyard.rest/v1/users/`).then((response) =>
 				response.json()
 			),
-			fetch(`https://discordlookup.mesavirep.xyz/v1/user/719176232683700316`).then(
+			fetch(`https://discordlookup.mesavirep.xyz/v1/user/`).then(
 				(response) => response.json()
 			),
 		]);
